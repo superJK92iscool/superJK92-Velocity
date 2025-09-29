@@ -223,7 +223,7 @@ public class VelocityPluginManager implements PluginManager {
       ((PluginClassLoader) pluginClassloader).addPath(path);
     } else {
       throw new UnsupportedOperationException(
-          "Operation is not supported on non-Java superJK92-Velocity plugins.");
+          "Operation is not supported on non-Java superJK92-superJK92-Velocity plugins.");
     }
   }
 }

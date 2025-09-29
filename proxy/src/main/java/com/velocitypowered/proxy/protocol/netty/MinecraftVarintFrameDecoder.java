@@ -41,7 +41,7 @@ public class MinecraftVarintFrameDecoder extends ByteToMessageDecoder {
   private static final Logger LOGGER = LogManager.getLogger(MinecraftVarintFrameDecoder.class);
   private static final QuietRuntimeException FRAME_DECODER_FAILED =
       new QuietRuntimeException("A packet frame decoder failed. For more information, launch "
-          + "Velocity with -Dvelocity.packet-decode-logging=true to see more.");
+          + "superJK92-Velocity with -Dvelocity.packet-decode-logging=true to see more.");
   private static final QuietDecoderException BAD_PACKET_LENGTH =
       new QuietDecoderException("Bad packet length");
   private static final QuietDecoderException VARINT_TOO_BIG =

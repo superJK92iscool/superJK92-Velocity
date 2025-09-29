@@ -31,7 +31,7 @@ public class ComponentHolderTest {
   @Test
   void testJsonToBinary() {
     Component component = MiniMessage.miniMessage().deserialize(
-        "<#09add3>A <reset><reset>Velocity <#09add3>Server");
+        "<#09add3>A <reset><reset>superJK92-Velocity <#09add3>Server");
     ComponentHolder holder = new ComponentHolder(ProtocolVersion.MINECRAFT_1_20_3, component);
     holder.getJson();
     holder.getBinaryTag();

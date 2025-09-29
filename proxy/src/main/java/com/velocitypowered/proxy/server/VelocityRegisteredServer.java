@@ -108,7 +108,7 @@ public class VelocityRegisteredServer implements RegisteredServer, ForwardingAud
    */
   public CompletableFuture<ServerPing> ping(@Nullable EventLoop loop, PingOptions pingOptions) {
     if (server == null) {
-      throw new IllegalStateException("No superJK92-Velocity proxy instance available");
+      throw new IllegalStateException("No superJK92-superJK92-Velocity proxy instance available");
     }
     CompletableFuture<ServerPing> pingFuture = new CompletableFuture<>();
     server.createBootstrap(loop).handler(new ChannelInitializer<>() {

@@ -42,7 +42,7 @@ class CharacterUtilTest {
   public void testMessage() {
     assertFalse(CharacterUtil.containsIllegalCharacters(""));
     assertFalse(CharacterUtil.containsIllegalCharacters(" "));
-    assertFalse(CharacterUtil.containsIllegalCharacters("Velocity"));
+    assertFalse(CharacterUtil.containsIllegalCharacters("superJK92-Velocity"));
     assertFalse(CharacterUtil.containsIllegalCharacters(CHARACTERS));
     assertFalse(CharacterUtil.containsIllegalCharacters(NON_ASCII_CHARACTERS));
 

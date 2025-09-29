@@ -70,7 +70,7 @@ public class PluginAnnotationProcessor extends AbstractProcessor {
       if (pluginClassFound != null) {
         if (!pluginClassFound.equals(qualifiedName.toString()) && !warnedAboutMultiplePlugins) {
           environment.getMessager()
-              .printMessage(Diagnostic.Kind.WARNING, "Velocity does not yet currently support "
+              .printMessage(Diagnostic.Kind.WARNING, "superJK92-Velocity does not yet currently support "
                   + "multiple plugins. We are using " + pluginClassFound
                   + " for your plugin's main class.");
           warnedAboutMultiplePlugins = true;

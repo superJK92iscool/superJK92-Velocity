@@ -73,7 +73,7 @@ public class VelocityScheduler implements Scheduler {
     this.pluginManager = pluginManager;
     this.timerExecutionService = Executors
         .newSingleThreadScheduledExecutor(new ThreadFactoryBuilder().setDaemon(true)
-            .setNameFormat("Velocity Task Scheduler Timer").build());
+            .setNameFormat("superJK92-Velocity Task Scheduler Timer").build());
   }
 
   @Override

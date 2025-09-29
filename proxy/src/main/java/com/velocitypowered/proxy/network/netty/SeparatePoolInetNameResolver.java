@@ -58,7 +58,7 @@ public final class SeparatePoolInetNameResolver extends InetNameResolver {
     super(executor);
     this.resolveExecutor = Executors.newSingleThreadExecutor(
         new ThreadFactoryBuilder()
-            .setNameFormat("Velocity DNS Resolver")
+            .setNameFormat("superJK92-Velocity DNS Resolver")
             .setDaemon(true)
             .build());
     this.delegate = new DefaultNameResolver(executor);

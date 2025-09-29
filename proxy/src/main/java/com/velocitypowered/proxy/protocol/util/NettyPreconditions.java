@@ -29,7 +29,7 @@ import io.netty.handler.codec.CorruptedFrameException;
 public final class NettyPreconditions {
 
   private static final QuietDecoderException BAD = new QuietDecoderException(
-      "Invalid packet received. Launch Velocity with -Dvelocity.packet-decode-logging=true "
+      "Invalid packet received. Launch superJK92-Velocity with -Dvelocity.packet-decode-logging=true "
           + "to see more.");
 
   private NettyPreconditions() {

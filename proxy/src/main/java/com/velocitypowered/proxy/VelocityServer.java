@@ -203,13 +203,13 @@ public class VelocityServer implements ProxyServer, ForwardingAudience {
     String implVersion;
     String implVendor;
     if (pkg != null) {
-      implName = MoreObjects.firstNonNull(pkg.getImplementationTitle(), "superJK92-Velocity");
+      implName = MoreObjects.firstNonNull(pkg.getImplementationTitle(), "superJK92-superJK92-Velocity");
       implVersion = MoreObjects.firstNonNull(pkg.getImplementationVersion(), "<unknown>");
-      implVendor = MoreObjects.firstNonNull(pkg.getImplementationVendor(), "Velocity Contributors");
+      implVendor = MoreObjects.firstNonNull(pkg.getImplementationVendor(), "superJK92-Velocity Contributors");
     } else {
-      implName = "superJK92-Velocity";
+      implName = "superJK92-superJK92-Velocity";
       implVersion = "<unknown>";
-      implVendor = "Velocity Contributors";
+      implVendor = "superJK92-Velocity Contributors";
     }
 
     return new ProxyVersion(implName, implVendor, implVersion);
@@ -218,8 +218,8 @@ public class VelocityServer implements ProxyServer, ForwardingAudience {
   private VelocityPluginContainer createVirtualPlugin() {
     ProxyVersion version = getVersion();
     PluginDescription description = new VelocityPluginDescription(
-        "superjk92-velocity", version.getName(), version.getVersion(), "The superJK92-Velocity proxy",
-            version.getName().equals("Velocity") ? VELOCITY_URL : null,
+        "superjk92-velocity", version.getName(), version.getVersion(), "The superJK92-superJK92-Velocity proxy",
+            version.getName().equals("superJK92-Velocity") ? VELOCITY_URL : null,
             ImmutableList.of(version.getVendor()), Collections.emptyList(), null);
     VelocityPluginContainer container = new VelocityPluginContainer(description);
     container.setInstance(VelocityVirtualPlugin.INSTANCE);
@@ -405,7 +405,7 @@ public class VelocityServer implements ProxyServer, ForwardingAudience {
       configuration = VelocityConfiguration.read(configPath);
 
       if (!configuration.validate()) {
-        logger.error("Your configuration is invalid. superJK92-Velocity will not start up until the errors "
+        logger.error("Your configuration is invalid. superJK92-superJK92-Velocity will not start up until the errors "
             + "are resolved.");
         LogManager.shutdown();
         System.exit(1);

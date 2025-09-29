@@ -171,7 +171,7 @@ public final class VelocityCommand {
       source.sendMessage(velocity);
       source.sendMessage(copyright);
 
-      if (version.getName().equals("Velocity")) {
+      if (version.getName().equals("superJK92-Velocity")) {
         final TextComponent embellishment = Component.text()
             .append(Component.text()
                 .content("PaperMC")
@@ -184,7 +184,7 @@ public final class VelocityCommand {
                 .color(NamedTextColor.GREEN)
                 .decoration(TextDecoration.UNDERLINED, true)
                 .clickEvent(ClickEvent.openUrl(
-                    "https://github.com/PaperMC/Velocity"))
+                    "https://github.com/PaperMC/superJK92-Velocity"))
                 .build())
             .build();
         source.sendMessage(embellishment);

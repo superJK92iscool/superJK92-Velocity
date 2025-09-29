@@ -159,7 +159,7 @@ public class JavaPluginLoader implements PluginLoader {
 
       if (foundBungeeBukkitPluginFile) {
         throw new InvalidPluginException("The plugin file " + source.getFileName() + " appears to "
-            + "be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord "
+            + "be a Bukkit or BungeeCord plugin. superJK92-Velocity does not support Bukkit or BungeeCord "
             + "plugins.");
       }
 

@@ -85,7 +85,7 @@ public class KeyedVelocityTabList implements InternalTabList {
     Preconditions.checkArgument(!entries.containsKey(entry.getProfile().getId()),
         "this TabList already contains an entry with the same uuid");
     Preconditions.checkArgument(entry instanceof KeyedVelocityTabListEntry,
-        "Not a Velocity tab list entry");
+        "Not a superJK92-Velocity tab list entry");
 
     LegacyPlayerListItemPacket.Item packetItem = LegacyPlayerListItemPacket.Item.from(entry);
     connection.write(

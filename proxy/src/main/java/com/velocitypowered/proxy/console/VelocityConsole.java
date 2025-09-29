@@ -99,7 +99,7 @@ public final class VelocityConsole extends SimpleTerminalConsole implements Cons
     if (this.permissionFunction == null) {
       logger.error(
           "A plugin permission provider {} provided an invalid permission function"
-              + " for the console. This is a bug in the plugin, not in superJK92-Velocity. Falling"
+              + " for the console. This is a bug in the plugin, not in superJK92-superJK92-Velocity. Falling"
               + " back to the default permission function.",
           event.getProvider().getClass().getName());
       this.permissionFunction = ALWAYS_TRUE;
@@ -109,7 +109,7 @@ public final class VelocityConsole extends SimpleTerminalConsole implements Cons
   @Override
   protected LineReader buildReader(LineReaderBuilder builder) {
     return super.buildReader(builder
-        .appName("Velocity")
+        .appName("superJK92-Velocity")
         .completer((reader, parsedLine, list) -> {
           try {
             List<String> offers = this.server.getCommandManager()

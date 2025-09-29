@@ -62,7 +62,7 @@ public class VelocityConfiguration implements ProxyConfig {
   @Expose
   private String bind = "0.0.0.0:25565";
   @Expose
-  private String motd = "<aqua>A Velocity Server";
+  private String motd = "<aqua>A superJK92-Velocity Server";
   @Expose
   private int showMaxPlayers = 500;
   @Expose
@@ -532,7 +532,7 @@ public class VelocityConfiguration implements ProxyConfig {
         }
       }
       final byte[] forwardingSecret = forwardingSecretString.getBytes(StandardCharsets.UTF_8);
-      final String motd = config.getOrElse("motd", "<#09add3>A Velocity Server");
+      final String motd = config.getOrElse("motd", "<#09add3>A superJK92-Velocity Server");
 
       // Read the rest of the config
       final CommentedConfig serversConfig = config.get("servers");
@@ -920,7 +920,7 @@ public class VelocityConfiguration implements ProxyConfig {
     @Expose
     private int queryPort = 25565;
     @Expose
-    private String queryMap = "Velocity";
+    private String queryMap = "superJK92-Velocity";
     @Expose
     private boolean showPlugins = false;
 
@@ -938,7 +938,7 @@ public class VelocityConfiguration implements ProxyConfig {
       if (config != null) {
         this.queryEnabled = config.getOrElse("enabled", false);
         this.queryPort = config.getIntOrElse("port", 25565);
-        this.queryMap = config.getOrElse("map", "Velocity");
+        this.queryMap = config.getOrElse("map", "superJK92-Velocity");
         this.showPlugins = config.getOrElse("show-plugins", false);
       }
     }
