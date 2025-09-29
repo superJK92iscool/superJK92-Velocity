@@ -99,7 +99,7 @@ public final class VelocityConsole extends SimpleTerminalConsole implements Cons
     if (this.permissionFunction == null) {
       logger.error(
           "A plugin permission provider {} provided an invalid permission function"
-              + " for the console. This is a bug in the plugin, not in Velocity. Falling"
+              + " for the console. This is a bug in the plugin, not in superJK92-Velocity. Falling"
               + " back to the default permission function.",
           event.getProvider().getClass().getName());
       this.permissionFunction = ALWAYS_TRUE;
