@@ -405,7 +405,7 @@ public class VelocityServer implements ProxyServer, ForwardingAudience {
       configuration = VelocityConfiguration.read(configPath);
 
       if (!configuration.validate()) {
-        logger.error("Your configuration is invalid. Velocity will not start up until the errors "
+        logger.error("Your configuration is invalid. superJK92-Velocity will not start up until the errors "
             + "are resolved.");
         LogManager.shutdown();
         System.exit(1);
