@@ -20,7 +20,7 @@ tasks {
 
     jar {
         manifest {
-            attributes["Implementation-Title"] = "Velocity"
+            attributes["Implementation-Title"] = "superJK92-Velocity"
             attributes["Implementation-Vendor"] = "Velocity Contributors"
             attributes["Multi-Release"] = "true"
         }
@@ -112,7 +112,7 @@ tasks {
 
 val projectVersion = version as String
 fill {
-    project("velocity")
+    project("superjk92-velocity")
 
     build {
         channel = BuildChannel.STABLE
