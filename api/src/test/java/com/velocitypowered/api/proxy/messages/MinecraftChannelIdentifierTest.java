@@ -44,7 +44,7 @@ class MinecraftChannelIdentifierTest {
 
   @Test
   void createAllowsSlashes() {
-    create("superjk92-velocity", "test/test2");
+    create("velocity", "test/test2");
   }
 
   @Test
