@@ -23,9 +23,9 @@ extensions.configure<PublishingExtension> {
                 description.set("The modern, next-generation Minecraft server proxy")
                 url.set("https://papermc.io/software/velocity")
                 scm {
-                    url.set("https://github.com/PaperMC/Velocity")
-                    connection.set("scm:git:https://github.com/PaperMC/Velocity.git")
-                    developerConnection.set("scm:git:https://github.com/PaperMC/Velocity.git")
+                    url.set("https://github.com/superJK92iscool/superJK92-Velocity")
+                    connection.set("scm:git:https://github.com/superJK92iscool/superJK92-Velocity.git")
+                    developerConnection.set("scm:git:https://github.com/superJK92iscool/superJK92-Velocity.git")
                 }
             }
         }
