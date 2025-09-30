@@ -19,7 +19,7 @@ extensions.configure<PublishingExtension> {
         create<MavenPublication>("maven") {
             from(components["java"])
             pom {
-                name.set("Velocity")
+                name.set("superJK92-Velocity")
                 description.set("The modern, next-generation Minecraft server proxy")
                 url.set("https://papermc.io/software/velocity")
                 scm {
