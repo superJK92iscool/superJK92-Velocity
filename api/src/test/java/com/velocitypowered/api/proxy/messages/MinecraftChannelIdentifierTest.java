@@ -38,7 +38,7 @@ class MinecraftChannelIdentifierTest {
 
   @Test
   void fromIdentifierIsCorrect() {
-    MinecraftChannelIdentifier expected = MinecraftChannelIdentifier.create("velocity", "test");
+    MinecraftChannelIdentifier expected = MinecraftChannelIdentifier.create("superjk92-velocity", "test");
     assertEquals(expected, MinecraftChannelIdentifier.from("velocity:test"));
   }
 
